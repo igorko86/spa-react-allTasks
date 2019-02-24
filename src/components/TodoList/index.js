@@ -4,9 +4,9 @@ class TodoList extends Component {
     render() {
         return (
             <div>
-                <header>
+                <header className='header'>
                     <input type="text"/>
-                    <button></button>
+                    <button>Add Task</button>
                 </header>
             </div>
         );
