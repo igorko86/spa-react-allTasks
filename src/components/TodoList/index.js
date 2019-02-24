@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
 
-class ToDoList extends Component {
+class TodoList extends Component {
     render() {
         return (
             <div>
-                
+                <header>
+                    <input type="text"/>
+                    <button></button>
+                </header>
             </div>
         );
     }
 }
 
-export default ToDoList;
+export default TodoList;
